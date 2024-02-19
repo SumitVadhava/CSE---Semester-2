@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L95</title>
+    <style>
+    body{
+        height: 70vh;
+        position: relative;
+        border: solid 1px black;
+    }    
+    .animation{
+      height: 10%;
+      width: 10%;
+      animation-name: bg-color;
+      animation-duration: 5s;
+      position: absolute;   
+      
+    
+    }
+    @keyframes bg-color{
+       0%{
+        top:0%;
+        left: 0%;
+        background-color: steelblue;
+       }
+       25%{
+        top: 0%;
+        left: 90%;
+        background-color: brown;
+       }
+       50%{
+        top: 90%;
+        left:90%;
+        background-color: aqua;
+    }
+    75%{
+        top:90%;
+        left: 0%;
+        background-color: cadetblue;
+    }
+    100%{
+        top:0%;
+        left:0%;
+        background-color: steelblue;
+    }
+    }
+</style>
+
+</head>
+<body>
+    <div class="animation">
+        OK
+    </div>
+</body>
+</html>
