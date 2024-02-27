@@ -33,6 +33,10 @@ public class Cricket_Score_Board{
                     TotalNoBall++;
 
                 }
+                else{
+                    System.out.println("Error!(Invaild Input)");
+                    break;
+                
         }
     }
             System.out.println("Match No"+n1+"score:-");
@@ -42,4 +46,5 @@ public class Cricket_Score_Board{
             System.out.println("Total Free Hits="+TotalNoBall);
   }
  }
+}
 }
