@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    height: 200vh;
+    background-color: #444444;
+}
+
+.navigation {
+    display: flex;
+    height: 15vh;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    height: 15vh;
+}
+
+.logo_image {
+    height: 100%;
+}
+
+.logo_image:hover {
+    filter: invert(74%) sepia(8%) saturate(1904%) hue-rotate(175deg) brightness(97%) contrast(93%);
+}
+
+.logo_text {
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.logo_text:hover {
+    cursor: pointer;
+    color: #7abaf8;
+}
+
+.navigation_right_part {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+select {
+    border: none;
+    background-color: black;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+select:hover {
+    color: #7abaf8;
+}
+
+.option {
+    padding-right: 25px;
+    margin-top: 3.8%;
+}
+
+.download_button {
+    background-color: #7abaf8;
+    height: 55%;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: 2.5%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.download_button:hover {
+    transform: translateY(-2px);
+
+}
+
+.social_media_logos {
+    display: flex;
+}
+
+.logos {
+    filter: grayscale(100%);
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-left: 3.8px;
+}
+
+.logos:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.logos1 {
+    filter: grayscale(100%);
+    height: 32px;
+    margin-top: 13px;
+    margin-left: 3px;
+    padding-left: 3.8px;
+    border-radius: 8px;
+}
+
+.logos1:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+.body_part {
+    height: 100vh;
+}
+
+.mid_part {
+    display: flex;
+}
+
+.mid_image {
+    height: 120px;
+    width: 1138px;
+    position: relative;
+
+}
+
+.mid_image_text {
+    position: absolute;
+    margin-left: 77%;
+    margin-top: 38px;
+    font-size: 45px;
+    color: white;
+    font-family: "Madimi One";
+}
+
+.bottom {
+    display: flex;
+    margin-left: 18px;
+    margin-top: 50px;
+    outline: none;
+}
+
+.party_photos1 {
+    height: 300px;
+    width: 280px;
+    padding-right: 20px;
+}
+
+.party_photos2 {
+    height: 300px;
+    width: 280px;
+    padding-right: 20px;
+}
+
+
+.party_photos3 {
+    height: 300px;
+    padding-right: 20px;
+    width: 280px;
+}
+
+.party_photos4 {
+    height: 300px;
+    width: 280px;
+    padding-right: 20px;
+
+
+}
+
+.party_detail {
+    transition: 0.2s;
+}
+
+.party_detail:hover {
+    transform: scale(1.1);
+}
+
+.party_text {
+    background-color: white;
+    width: 260px;
+    height: 250px;
+
+}
+
+.party_text p {
+    padding-bottom: 10px;
+    padding-left: 11px;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+
+.laser {
+    font-size: 25px;
+    font-family: "Madimi one";
+}
+
+.party_text1 {
+    background-color: white;
+    width: 260px;
+    height: 250px;
+}
+
+.party_text1 p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 11px;
+    font-weight: bolder;
+}
+
+.live_music {
+    font-family: "Madimi one";
+    font-size: 25px;
+}
+
+.party_text2 {
+    background-color: white;
+    width: 260px;
+    height: 250px;
+}
+
+.party_text2 p {
+    padding-bottom: 10px;
+    padding-left: 11px;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+
+.dj {
+    font-family: "Madimi one";
+    font-size: 25px;
+}
+
+.party_text3 {
+    background-color: white;
+    width: 260px;
+    height: 250px;
+}
+
+.party_text3 p {
+    padding-bottom: 10px;
+    padding-left: 11px;
+    font-weight: bolder;
+    padding-top: 5px;
+}
+
+.night_party {
+    font-family: "Madimi one";
+    font-size: 25px;
+}
+
+.See_more_button {
+    background-color: #7abaf8;
+    height: 15%;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 16%;
+    margin-top: 4%;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-family: "Roboto Condensed";
+}
+
+.See_more_button:hover {
+    box-shadow: 2px 5px 9px #22232c;
+    cursor: pointer;
+    background-color: #006ddb;
+}
+
+.descripation {
+    background-color: black;
+    height: 260px;
+    margin-top: 40px;
+}
+
+.follow {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 40px;
+    font-family: "Madimi one";
+}
+
+.follow:hover {
+    cursor: context-menu;
+}
+
+.social_media_logos_bottom {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logos_bottom {
+    filter: grayscale(100%);
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 12px;
+
+}
+
+.logos_bottom:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+.logos1_bottom {
+    filter: grayscale(100%);
+    height: 32px;
+    margin-top: 13px;
+    margin-left: 3px;
+    padding-left: 15px;
+    border-radius: 8px;
+}
+
+.logos1_bottom:hover {
+    filter: none;
+}
+
+.Copyright_text {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 15px;
+    font-family: "Madimi one";
+    letter-spacing: 1.5px;
+    padding-left: 25px;
+}
+
+.Copyright_text:hover {
+    cursor: context-menu;
+}
